@@ -9,7 +9,7 @@ body {font-family: Georgia, serif;
 }
 
 header {text-align: center;
-    padding: 20px;
+    padding: 1.25rem;
     background-color: #f0f0f0;
     border-bottom: 1px solid #ccc;
 }
@@ -17,7 +17,7 @@ header {text-align: center;
 h1 {margin: 0;
     font-size: clamp(28px, 5vw, 40px);
     color: hsla(0, 100%, 8%, 1);
-    padding-top: 12px;
+    padding-top: 0.75rem;
 }
 
 .tagline { margin-top: 5px;
@@ -27,7 +27,7 @@ h1 {margin: 0;
 }
 
 nav {background-color: hsla(0, 100%, 8%, 1);
-    padding: 30px;
+    padding: 1.875rem;
 }
 
 nav ul {list-style-type: none;
@@ -43,8 +43,8 @@ nav li {display: inline;
 
 nav a {color: white;
     text-decoration: none;
-    font-size: 18px;
-    padding: 10px 20px;
+    font-size: 1.125rem;
+    padding: 0.625rem 1.25rem;
     display: inline-block;
     transition: background-color 0.3s;
 }
@@ -55,13 +55,13 @@ nav a:hover {background-color: rgba(255, 255, 255, 0.1);
 
 main {max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 #flex-container {display: flex;
     flex-wrap: wrap;
-    gap: 40px;
-    margin-top: 20px;
+    gap: 2.5rem;
+    margin-top: 1.25rem;
 }
 
 #left {flex: 1;
@@ -78,32 +78,32 @@ main {max-width: 1200px;
 
 h3 {text-align: center;
     margin: 0;
-    padding-top: 20px;
-    font-size: 20px;
+    padding-top: 1.25rem;
+    font-size: 1.25rem;
     color: hsla(0, 100%, 8%, 1);
     font-style: italic;
 }
 
 #left > p {text-align: center;
-    font-size: 16px;
-    margin: 15px 0 10px;
+    font-size: 1rem;
+    margin: 0.938rem 0 0.625rem;
 }
 
 #left ul,
 #left ol {text-align: center;
     background-color: white;
     color: black;
-    padding: 10px;
+    padding: 0.625rem;
     list-style-position: inside;
-    margin: 10px 0;
+    margin: 0.625rem 0;
 }
 
 #left ul {list-style-type: disc;
 }
 
 #left li {display: block;
-    font-size: 16px;
-    padding: 5px 0;
+    font-size: 1rem;
+    padding: 0.3125rem 0;
 }
 
 #left a {color: #0066cc;
@@ -118,29 +118,28 @@ h3 {text-align: center;
 }
 
 #right p {display: block;
-    margin: 0 auto 20px;
+    margin: 0 auto 1.25rem;
     max-width: 100%;
     text-align: justify;
-    font-size: clamp(14px, 2vw, 16px);
+    font-size: 0.875rem;
     line-height: 1.8;
 }
 
 footer {text-align: center;
-    margin: 40px 0 0;
-    font-size: clamp(12px, 2vw, 16px);
+    margin: 2.5rem 0 0;
+    font-size: clamp(0.75rem, 2vw, 1rem);
     background-color: hsla(0, 100%, 8%, 1);
     color: white;
-    padding: 20px;
+    padding: 1.25rem;
 }
-
 /* Tablet breakpoint */
 @media (max-width: 768px) {
     header {
-        padding: 15px;
+        padding: 0.938rem;
     }
 
     nav {
-        padding: 20px 10px;
+        padding: 1.25rem 0.625rem;
     }
 
     nav ul {
@@ -148,16 +147,16 @@ footer {text-align: center;
     }
 
     nav a {
-        font-size: 16px;
-        padding: 8px 15px;
+        font-size: 1rem;
+        padding: 0.5rem 0.938rem;
     }
 
     main {
-        padding: 15px;
+        padding: 0.938rem;
     }
 
     #flex-container {
-        gap: 30px;
+        gap: 1.875rem;
     }
 
     #left,
@@ -178,30 +177,30 @@ footer {text-align: center;
 /* Mobile breakpoint */
 @media (max-width: 480px) {
     header {
-        padding: 10px;
+        padding: 0.625rem;
     }
 
     nav {
-        padding: 15px 5px;
+        padding: 0.938rem 0.313rem;
     }
 
     nav ul {
         flex-direction: column;
-        gap: 5px;
+        gap: 0.313rem;
     }
 
     nav a {
         display: block;
-        padding: 12px;
-        font-size: 16px;
+        padding: 0.75rem;
+        font-size: 1rem;
     }
 
     main {
-        padding: 10px;
+        padding: 0.625rem;
     }
 
     #flex-container {
-        gap: 20px;
+        gap: 1.25rem;
     }
 
     #left img {
@@ -209,15 +208,15 @@ footer {text-align: center;
     }
 
     h3 {
-        font-size: 18px;
-        padding-top: 15px;
+        font-size: 1.125rem;
+        padding-top: 1.25rem;
     }
 
     #left li {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 
     footer {
-        padding: 15px 10px;
+        padding: 0.938rem 0.625rem;
     }
 }
